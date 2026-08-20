@@ -16,7 +16,7 @@ A Python-based stock analysis tool that uses historical market data to calculate
 
 ## Technologies
 - Python
-- yFinance
+- yfinance
 - Matplotlib
 
 ## Project Structure
