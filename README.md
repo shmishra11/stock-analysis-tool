@@ -1,2 +1,29 @@
-# stock-analysis-tool
-Python-based stock analysis tool using yFinance and Matplotlib. An interactive terminal program that analyzes historical stock performance through average daily returns, daily/annual volatility, maximum drawdown, and a 0–100 historical risk score. Includes stock price visualization and side-by-side comparison of two stocks over the same period.
+# Stock Analysis Tool
+
+A Python-based stock analysis tool that uses historical market data to calculate returns, volatility, maximum drawdown, and historical risk. The program also allows users to graph stock prices and compare two stocks over the same time period.
+
+## Features
+
+- Validate stock tickers
+- Validate trading dates
+- Calculate average daily return
+- Calculate daily volatility
+- Calculate annualized volatility
+- Calculate maximum drawdown
+- Generate a historical risk score
+- Graph historical closing prices
+- Compare two stocks
+- Terminal-based interactive menu
+
+## Technologies
+
+- Python
+- yfinance
+- Matplotlib
+
+## Installation
+
+Clone the repository and install the required libraries:
+
+```bash
+pip install -r requirements.txt
