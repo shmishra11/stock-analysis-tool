@@ -18,6 +18,11 @@ A Python-based stock analysis tool that uses historical market data to calculate
 - yfinance
 - Matplotlib
 
+## Project Structure
+- `main.py` — Runs the program and handles the terminal menu
+- `functions.py` — Contains the stock validation, analysis, comparison, and graphing functions
+- `requirements.txt` — Lists the required Python libraries
+
 ## Installation
 Clone the repository and install the required libraries:
 ```bash
