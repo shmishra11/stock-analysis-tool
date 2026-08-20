@@ -1,9 +1,7 @@
 # Stock Analysis Tool
-
 A Python-based stock analysis tool that uses historical market data to calculate returns, volatility, maximum drawdown, and historical risk. The program also allows users to graph stock prices and compare two stocks over the same time period.
 
 ## Features
-
 - Validate stock tickers
 - Validate trading dates
 - Calculate average daily return
@@ -16,14 +14,22 @@ A Python-based stock analysis tool that uses historical market data to calculate
 - Terminal-based interactive menu
 
 ## Technologies
-
 - Python
 - yfinance
 - Matplotlib
 
 ## Installation
-
 Clone the repository and install the required libraries:
-
 ```bash
 pip install -r requirements.txt
+```
+
+## Usage
+Run the program with:
+```bash
+python main.py
+```
+
+## Disclaimer
+This project is for educational purposes only and is not financial advice.
+The risk score is a custom metric based on historical stock performance and should not be interpreted as a prediction of future performance.
